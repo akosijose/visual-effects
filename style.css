@@ -52,7 +52,7 @@ header img {
   width: 50%;
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.5s all ease-in-out;
+  transition: 0.7s all ease-in-out;
 }
 .intro-appear {
   opacity: 1;
