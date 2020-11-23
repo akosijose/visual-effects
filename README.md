@@ -1,2 +1,2 @@
 # visual-effects
-Visual effects Vanilla JS
+### Visual effects Vanilla JS
