@@ -39,7 +39,7 @@ header img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 4rem 4rem;
+  padding: 4rem;
 }
 .intro-text h2 {
   margin-bottom: 1.3rem;
@@ -57,4 +57,44 @@ header img {
 .intro-appear {
   opacity: 1;
   transform: translateY(0px);
+}
+
+@media screen and (min-width: 320px) {
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .intro-content .intro-text {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    font-size: 1rem;
+  }
+
+  .intro-content img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .intro-content .intro-text {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    font-size: 1.125rem;
+  }
+
+  .intro-content img {
+    width: 100%;
+    height: auto;
+  }
 }
