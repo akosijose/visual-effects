@@ -49,7 +49,7 @@ header img {
 }
 
 .intro-text {
-  /* width: 30%; */
+  width: 50%;
   opacity: 0;
   transform: translateY(20px);
   transition: 0.5s all ease-in-out;
